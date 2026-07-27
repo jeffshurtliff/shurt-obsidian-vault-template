@@ -1,1 +1,1 @@
-# AGENTS.md — Obsidian PKM Vault Custodian Instructions
+# AGENTS.md — Obsidian PKM Vault Template Instructions
