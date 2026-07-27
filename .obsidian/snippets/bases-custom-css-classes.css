@@ -1,0 +1,28 @@
+/********************************************
+ *       CUSTOM CSS CLASSES: BASES          *
+ *                                          *
+ *       Last Modified: 2025-12-08          *
+ *                                          *
+ ********************************************/
+
+/* CSS Class: bases-no-toolbar
+ * Description: Hides the toolbar for embedded Bases views
+ * Reference: https://forum.obsidian.md/t/bases-hide-toolbar/103391/2
+ */
+ .bases-no-toolbar {
+    /*     
+    .query-toolbar {
+        display: none;
+    }
+    &.mod-cm6 .cm-content > .bases-embed .edit-block-button {
+        opacity: 0.3;
+    }
+    */
+
+    .bases-embed .bases-toolbar {
+        display: none;
+    }
+    .bases-embed + .edit-block-button {
+        opacity: 0.3 !important;
+    }
+}

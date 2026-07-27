@@ -1,0 +1,15 @@
+/********************************************
+ *       CUSTOM CSS CLASSES: DATAVIEW       *
+ *                                          *
+ *       Last Modified: 2026-02-07          *
+ *                                          *
+ ********************************************/
+
+/* CSS Class: dataview-shrink-error-box
+ * Description: Reduces the size of the error box for Dataview queries that fail to render or return no results
+ */
+ .dataview-shrink-error-box {
+    .dataview.dataview-error-box {
+        min-height: 20px;
+    }
+ }

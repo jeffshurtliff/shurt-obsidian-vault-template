@@ -1,0 +1,11 @@
+{
+  "pinned": [
+    "daily-notes",
+    "insert-template",
+    "file-explorer:move-file",
+    "workspace:close",
+    "workspace:undo-close-pane",
+    "app:show-debug-info",
+    "auto-keyword-linker:link-keywords-in-current-note"
+  ]
+}

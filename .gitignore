@@ -1,0 +1,18 @@
+###############################
+#  .gitignore Configuration   #
+#  Last Updated: 2026-07-26   #
+###############################
+
+# Exclude macOS, iOS, iPadOS, and Windows system files
+.DS_Store
+Thumbs.db
+.trash/
+
+# Device- and session-specific Obsidian state
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/workspace-mobile.json
+
+# Do not redistribute third-party plugin or theme code by default
+.obsidian/plugins/
+.obsidian/themes/

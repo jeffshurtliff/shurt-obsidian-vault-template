@@ -1,0 +1,8 @@
+{
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "bases-custom-css-classes",
+    "custom-callouts",
+    "dataview-custom-css-classes"
+  ]
+}

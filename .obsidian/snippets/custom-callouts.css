@@ -1,0 +1,245 @@
+/********************************************
+ *      CUSTOM CALLOUTS CSS SNIPPET         *
+ *                                          *
+ *       Last Modified: 2026-06-26          *
+ *                                          *
+ ********************************************/
+
+/*------------------------------------------*
+    AI-related Callouts
+ *------------------------------------------*/
+
+ /* AI Callout */
+.callout[data-callout="ai"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-bot-message-square;
+}
+
+/* AI Callout - Agentforce Alias */
+.callout[data-callout="agentforce"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-bot-message-square;
+}
+
+/* AI Callout - ChatGPT Alias */
+.callout[data-callout="chatgpt"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-bot-message-square;
+}
+
+/* AI Callout - Claude Alias */
+.callout[data-callout="claude"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-bot-message-square;
+}
+
+/* AI Callout - Codex Alias */
+.callout[data-callout="codex"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-bot-message-square;
+}
+
+/* AI Callout - Gemini Alias */
+.callout[data-callout="gemini"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-bot-message-square;
+}
+
+/* AI Callout - Grok Alias */
+.callout[data-callout="grok"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-bot-message-square;
+}
+
+/* AI Callout - Perplexity Alias */
+.callout[data-callout="perplexity"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-bot-message-square;
+}
+
+
+/*------------------------------------------*
+    Chat and Instant Message Callouts
+ *------------------------------------------*/
+
+/* Chat Callout */
+.callout[data-callout="chat"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-messages-square;
+}
+
+/* Chat Callout - MS Teams Alias */
+.callout[data-callout="msteams"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-messages-square;
+}
+
+/* Chat Callout - Reddit Alias */
+.callout[data-callout="reddit"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-messages-square;
+}
+
+/* Chat Callout - Slack Alias */
+.callout[data-callout="slack"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-messages-square;
+}
+
+/* Discord Callout */
+.callout[data-callout="discord"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-messages-square;
+    /* --callout-icon: lucide-discord;   // Use this when supported */
+}
+
+/* Text Message Callout */
+.callout[data-callout="textmessage"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-message-circle-more;
+}
+
+/* Text Message Callout - SMS Alias */
+.callout[data-callout="sms"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-message-circle-more;
+}
+
+/* Text Message Callout - iMessage Alias */
+.callout[data-callout="imessage"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-message-circle-more;
+}
+
+
+/*------------------------------------------*
+    Elders Quorum Lesson Callouts
+ *------------------------------------------*/
+
+/* ASK Callout */
+.callout[data-callout="ask"] {
+    --callout-color: var(--callout-question);
+    --callout-icon: help-circle;
+}
+.callout[data-callout="ask"] .callout-title-inner {
+    text-transform: uppercase;
+}
+
+/* READ Callout */
+.callout[data-callout="read"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-book-open-text;
+}
+.callout[data-callout="read"] .callout-title-inner {
+    text-transform: uppercase;
+}
+
+/* SAY Callout */
+.callout[data-callout="say"] {
+    --callout-color: var(--callout-info);
+    --callout-icon: lucide-megaphone;
+}
+.callout[data-callout="say"] .callout-title-inner {
+    text-transform: uppercase;
+}
+
+/* STORY Callout */
+.callout[data-callout="story"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-presentation;
+}
+.callout[data-callout="story"] .callout-title-inner {
+    text-transform: uppercase;
+}
+
+/* TESTIMONY Callout */
+.callout[data-callout="testimony"] {
+    --callout-color: var(--callout-success);
+    --callout-icon: lucide-lectern;
+}
+.callout[data-callout="testimony"] .callout-title-inner {
+    text-transform: uppercase;
+}
+
+/* TESTIMONY Callout - Conclusion Alias */
+.callout[data-callout="conclusion"] {
+    --callout-color: var(--callout-success);
+    --callout-icon: lucide-lectern;
+}
+.callout[data-callout="conclusion"] .callout-title-inner {
+    text-transform: uppercase;
+}
+
+
+/*------------------------------------------*
+    Email and Mail Callouts
+ *------------------------------------------*/
+
+/* Email Callout */
+.callout[data-callout="email"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-mail;
+}
+
+/* Email Callout - Mail Alias */
+.callout[data-callout="mail"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-mail;
+}
+
+
+/*------------------------------------------*
+    Music and Lyrics Callouts
+ *------------------------------------------*/
+
+/* Lyrics Callout */
+.callout[data-callout="lyrics"] {
+    --callout-color: var(--callout-example);
+    --callout-icon: lucide-music;
+}
+
+
+/*------------------------------------------*
+    Template Callouts
+ *------------------------------------------*/
+
+/* Template Callout */
+.callout[data-callout="template"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-book-template;
+}
+
+
+/*------------------------------------------*
+    Ticket and Support Callouts
+ *------------------------------------------*/
+
+/* Ticket Callout */
+.callout[data-callout="ticket"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-ticket;
+}
+
+/* Ticket Callout - Case Alias */
+.callout[data-callout="case"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-ticket;
+}
+
+/* Ticket Callout - Request Alias */
+.callout[data-callout="request"] {
+    --callout-color: var(--callout-quote);
+    --callout-icon: lucide-ticket;
+}
+
+/* Incident Callout */
+.callout[data-callout="incident"] {
+    --callout-color: var(--callout-warning);
+    --callout-icon: lucide-bug;
+}
+
+/* Incident Callout - Bug Alias */
+.callout[data-callout="bug"] {
+    --callout-color: var(--callout-warning);
+    --callout-icon: lucide-bug;
+}
